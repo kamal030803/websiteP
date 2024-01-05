@@ -64,19 +64,6 @@ export default function Home({ blogs, profile}) {
           rel="preconnect" />
 
         <link
-          as="style"
-          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-          rel="preload" />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-          rel="stylesheet" />
-
-        <link
-          href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-          rel="stylesheet" />
-
-        <link
           crossOrigin="anonymous"
           href="/assets/styles/main.min.css"
           media="screen"
@@ -176,7 +163,7 @@ export default function Home({ blogs, profile}) {
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                 </div>
                 <span><div>
-                <Link href="https://drive.google.com/file/d/1u62352ImLPBvQTmhaZDUnssXbIgQTmOH/view?usp=sharing"><div className="buttons text-center md:text-right">
+                <Link href="https://drive.google.com/file/d/1oMrMlgw4Cz2pySAr0Qw18aqsujfC0lux/view?usp=sharing"><div className="buttons text-center md:text-right">
                   <button className='bg-purple-600 text-white border-2 px-4 py-1 my-4 rounded-2xl'>Resume</button>
                 </div></Link>
                 <Link href={'/blogs'}><div className="buttons text-center md:text-left">
